@@ -193,10 +193,9 @@ bindsym $mod+r mode "resize"
 exec_always --no-startup-id "sh $HOME/.config/polybar/launch.sh"
 
 #assign programs to workspaces where they open
-assign [class="firefox"] $ws2
-assign [class="Alacritty"] $ws1
-assign [class="code-oss"] $ws3
-#assign [class="thunderbird"} $ws4
+#assign [class="firefox"] $ws2
+#assign [class="Alacritty"] $ws1
+#assign [class="code-oss"] $ws3
 
 #gaps
 gaps inner 7
