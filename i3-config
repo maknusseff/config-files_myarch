@@ -117,7 +117,7 @@ bindsym $mod+a focus parent
 set $ws1 "1-term"
 set $ws2 "2-web"
 set $ws3 "3-dev"
-set $ws4 "4-tool"
+set $ws4 "4-mail"
 set $ws5 "5"
 set $ws6 "6"
 set $ws7 "7"
@@ -196,6 +196,7 @@ exec_always --no-startup-id "sh $HOME/.config/polybar/launch.sh"
 assign [class="firefox"] $ws2
 assign [class="Alacritty"] $ws1
 assign [class="code-oss"] $ws3
+#assign [class="thunderbird"} $ws4
 
 #gaps
 gaps inner 7
